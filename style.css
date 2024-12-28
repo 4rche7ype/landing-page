@@ -2,6 +2,7 @@ body {
     font-family: Roboto, Arial, sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
@@ -9,14 +10,25 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
+    padding: 10px 100px;
 }
 
-span {
+.logotxt {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
 }
 
 ul {
+    display: flex;
     font-size: 18px;
     color: #e5e7eb;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
 }
