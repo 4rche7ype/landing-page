@@ -19,6 +19,10 @@ body {
     font-weight: bold;
 }
 
+.block-one {
+    display: flex;
+}
+
 ul {
     display: flex;
     font-size: 18px;
