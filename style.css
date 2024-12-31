@@ -104,6 +104,33 @@ body {
     margin-bottom: 5px;
 }
 
+/* block three stuff */
+.block-three {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 100px 80px;
+}
+
+.block-three-media {
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1f2937;
+}
+
+.quoted {
+    align-self: flex-end;
+    font-weight: bold;
+}
 
 ul {
     display: flex;
