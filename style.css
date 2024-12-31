@@ -61,7 +61,7 @@ body {
 
 .block-one-img {
     width: 400px;
-    height:200px;
+    height: 200px;
     flex-shrink: 0;
     color: white;
     text-align: center;
@@ -71,6 +71,7 @@ body {
 /*block two stuff */
 .block-two {
     text-align: center;
+    padding: 10px 100px 80px;
 }
 
 .info-header {
@@ -82,8 +83,9 @@ body {
 
 .block-two-media {
     display: flex;
-    justify-content: center;
-    margin-bottom: 40px;
+    justify-content: space-around;
+    margin: 40px 0;
+    gap: 15px;
 }
 
 .section {
@@ -91,13 +93,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 150px;
 }
 
 .block-two-img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border: 2px solid #3882f6;
-    border-radius: 6px;
+    border-radius: 12px;
+    margin-bottom: 5px;
 }
 
 
