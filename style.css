@@ -134,6 +134,34 @@ body {
     padding-top: 8px;
 }
 
+/*block four stuff */
+.block-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+}
+
+.block-four-banner {
+    border: 2px solid #3882f6;
+    border-radius: 4px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 700px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.block-four-banner button {
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid #f9faf8;
+    padding: 4px 16px;
+    font-weight: bold;
+    border-radius: 4px;
+}
 ul {
     display: flex;
     font-size: 18px;
