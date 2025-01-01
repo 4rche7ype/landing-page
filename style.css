@@ -110,7 +110,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 100px 80px;
+    padding: 80px 100px;
 }
 
 .block-three-media {
@@ -118,6 +118,7 @@ body {
     height: 200px;
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
 }
 
 .quote {
@@ -130,6 +131,7 @@ body {
 .quoted {
     align-self: flex-end;
     font-weight: bold;
+    padding-top: 8px;
 }
 
 ul {
