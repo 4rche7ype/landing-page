@@ -162,6 +162,17 @@ body {
     font-weight: bold;
     border-radius: 4px;
 }
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-header {
+    font-weight: bold;
+    font-size: 20px;
+}
+
 ul {
     display: flex;
     font-size: 18px;
