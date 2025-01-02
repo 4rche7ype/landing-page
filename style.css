@@ -172,6 +172,14 @@ body {
     font-weight: bold;
     font-size: 20px;
 }
+/* footer */
+.footer {
+    text-align: center;
+    padding: 20px 100px;
+    background-color: #1f2937;
+    color: #f9faf8;
+
+}
 
 ul {
     display: flex;
